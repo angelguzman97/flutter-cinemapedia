@@ -3,7 +3,7 @@ import 'package:cinemapedia/presentation/providers/movies/movies_providers.dart'
 import 'package:cinemapedia/presentation/providers/movies/movies_repository_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final movieInfoProvier = StateNotifierProvider<MovieMapNotifier, Map<String, Movie>>((ref) {
+final movieInfoProvider = StateNotifierProvider<MovieMapNotifier, Map<String, Movie>>((ref) {
   final movieRepository = ref.watch(movieRepositoryProvider);
   return MovieMapNotifier(getMovie:movieRepository.getMovieById);
 });

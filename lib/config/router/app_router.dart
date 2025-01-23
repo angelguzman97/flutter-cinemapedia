@@ -1,6 +1,5 @@
 // import 'package:cinemapedia/presentation/screens/movies/home_screen.dart';
 import 'package:go_router/go_router.dart';
-import 'package:cinemapedia/presentation/views/views.dart';
 
 import '../../presentation/screens/screens.dart';
 //Tercer Prueba Actualizada
